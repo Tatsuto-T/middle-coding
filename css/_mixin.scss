@@ -1,0 +1,59 @@
+@import "variables";
+
+@mixin section-title($color:$font){
+    max-width:1000px;
+    color: $color;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 100px auto 70px;
+    padding:0px;
+
+    &::after{
+        content: "";
+        display: inline-block;
+        background-color: $color;
+        width: 200px;
+        height: 5px;
+        margin-left: 30px;
+        vertical-align: middle;
+    }
+}
+
+@mixin section-title-white($color:$white){
+    max-width:1000px;
+    color: $color;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 100px auto 70px;
+    padding:0px;
+    text-align: right;
+
+    &::after{
+        content: "";
+        display: inline-block;
+        background-color: $color;
+        width: 200px;
+        height: 5px;
+        margin-left: 30px;
+        vertical-align: middle;
+        }
+}
+
+@mixin transparent-font-white($color:#171717,$opacity:.06){
+    font-size: 90px;
+    font-weight: bold;
+    color:$color;
+    opacity: $opacity;
+    text-align: right;
+}
+
+@mixin transparent-font-black($color:#000000,$opacity:.16){
+    font-size: 90px;
+    font-weight: bold;
+    color:$color;
+    opacity: $opacity;
+    text-align: left;
+    padding-bottom: 70px;
+}

@@ -1,0 +1,119 @@
+@media screen and (max-width: 768px) {
+  .section-title {
+    padding: 0 4vw;
+    padding-top: 100px;
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  .section-bottom {
+    font-size: 40px;
+    padding: 0 4vw;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  .section-inner {
+    padding: 0 4vw;
+    margin: 0 auto;
+  }
+  .link-btn {
+    margin-bottom: 40px;
+  }
+  .sp-br {
+    display: block;
+  }
+  .pc-br {
+    display: none;
+  }
+  .header {
+    position: relative;
+  }
+  .header-inner {
+    padding: 30px 4vw 0;
+    margin-top: 0px !important;
+  }
+  .header-nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #282F35;
+  }
+  .header-inner-right .header-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100vh;
+  }
+  .header-inner-right .header-list .header-item {
+    margin: 0 0 30px;
+  }
+  .header-inner-right .burger-btn {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 4vw;
+  }
+  .header-inner-right .burger-btn .bar {
+    display: block;
+    height: 3px;
+    width: 30px;
+    background-color: #fff;
+  }
+  .header-inner-right .burger-btn .bar_top,
+  .header-inner-right .burger-btn .bar_mid {
+    margin-bottom: 8px;
+  }
+  .header-inner-right .burger-btn .bar_bot {
+    margin-bottom: px;
+  }
+  .main-bg .main-copy {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    white-space: nowrap;
+    text-align: center;
+  }
+  .main-bg .main-copy .en-copy {
+    font-size: 9.8vw;
+    white-space: nowrap;
+  }
+  .main-bg .main-copy .jp-copy {
+    font-size: 8vw;
+    display: inline;
+  }
+  .concept .section-title {
+    margin-bottom: 50px;
+  }
+  .concept .section-lead {
+    font-size: 20px;
+    margin-bottom: 32px;
+  }
+  .concept-description {
+    display: block;
+    margin-bottom: 40px;
+    padding-bottom: 0;
+  }
+  .concept-description-text {
+    width: 100%;
+    margin-bottom: 3px;
+    margin-bottom: 50px;
+  }
+  .concept-description-img {
+    margin: 0;
+    width: 100%;
+    margin-left: 0;
+  }
+  .concept-description-img img {
+    max-width: none;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
