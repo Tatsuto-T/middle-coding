@@ -1,0 +1,201 @@
+@import "variables";
+
+@media screen and (max-width:768px){
+
+    .section-title{
+        padding: 0 4vw;
+        padding-top: 100px !important;
+        font-size: 30px;
+        margin-bottom: 50px;
+
+        &::after{
+            width: 90px;
+        }
+    }
+
+    .section-bottom{
+        font-size: 40px;
+        padding:0 4vw;
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+
+    .section-inner{
+        padding:0 4vw;
+        margin: 0 auto;
+    }
+
+    .link-btn{
+        margin-bottom: 0px;
+    }
+
+    .sp-br{
+        display: block;
+    }
+
+    .pc-br{
+        display: none;
+    }
+
+    // HEADER---------------------------------------------------
+    .header{
+        position: relative;
+        
+        &-inner{
+            padding: 30px 4vw 0;
+            margin-top: 0px !important;
+        }
+
+        &-nav{
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: $font;
+        }
+
+        &-inner-right{
+            .header-list{
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+
+                .header-item{
+                    margin:0 0 30px;
+                }
+            }
+
+            .burger-btn{
+                display: block;
+                position:absolute;
+                top:30px;
+                right: 4vw;
+
+                .bar{
+                    display: block;
+                    height: 3px;
+                    width: 30px;
+                    background-color: #fff;
+                }
+
+                .bar_top,
+                .bar_mid{
+                    margin-bottom: 8px;
+                }
+            
+                .bar_bot{
+                    margin-bottom: px;
+                }
+            }
+        }
+    }
+
+    // MAIN-BG----------------------------------
+    .main-bg{
+        .main-copy{
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            white-space: nowrap;
+            text-align: center;
+            
+        
+            .en-copy{
+                font-size: 9.8vw;
+                white-space: nowrap;
+            }
+
+            .jp-copy{
+                font-size:8vw ;
+                display: inline;
+            }
+        }
+    }
+
+    // CONCEPT ---------------------
+    .concept{
+        .section-title{
+            margin-bottom: 50px;
+        }
+
+        .section-lead{
+            font-size: 20px;
+            margin-bottom: 32px;
+        }
+
+        &-description{
+            display: block;
+            margin-bottom: 0px;
+            padding-bottom: 0;
+
+            &-text{
+                width: 100%;
+                margin-bottom: 3px;
+                margin-bottom: 50px;
+            }
+
+            &-img{
+                margin: 0;
+                width: 100%;
+                margin-left: 0;
+                img{
+                    max-width: none;
+                    height: fit-content;
+                }
+            }
+        }
+    }
+
+    // WORKS------------------------------------------------------------------------------------
+    .works{
+        .section-title{
+            padding-bottom: 40px;
+            margin-bottom: 0;
+        }
+        .section-inner{
+            .works-list{
+                display: block;
+                padding: 0 4vw;
+                margin-bottom: 80px;
+
+                .works-item{
+                    width: 320px;
+                    max-width: 100%;
+                    margin: 0 auto;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+
+    // SERVICE--------------------------------------------------------------------
+    .service{
+        .service-list{
+            display: block;
+            .service-item{
+                width: 100%;
+                background-size: cover;
+
+                &:nth-child(3){
+                    .service-item-text{
+                        margin-bottom: 0;
+                    }
+                    
+                }
+            }
+        }
+        
+    }
+
+    // CONTACT ----------------------------------------------------------------------------
+    .contact{
+        .section-title{
+            margin-bottom: 0;
+        }
+    }
+
+
+
+}
