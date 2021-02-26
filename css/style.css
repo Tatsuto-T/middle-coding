@@ -41,7 +41,6 @@ a {
 
 .section-wrapper {
   margin: 0 auto;
-  max-width: 120;
 }
 
 .section-inner {
@@ -331,7 +330,7 @@ header .header-inner-right .header-list .header-item a {
 
 footer {
   text-align: center;
-  padding: 30px 0 20px;
+  padding: 30px 0px;
   font-weight: bold;
 }
 
