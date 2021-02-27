@@ -1,0 +1,280 @@
+@import "variables";
+@import "mixin";
+
+
+body{
+    font-family: 'Noto Serif', serif;
+    font-family: 'Noto Serif JP', serif;
+    color: $font;
+    box-sizing: border-box;
+}
+
+.wrap{
+    overflow-x:hidden;
+}
+
+p{
+    font-size: 16px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.section-title{
+    font-size: 60px;
+    font-weight: bold;
+    font-style: italic;
+
+    &::after{
+        content: "";
+        display: inline-block;
+        background-color: $font;
+        width: 200px;
+        height: 5px;
+        margin-left: 30px;
+        vertical-align: middle;
+    }
+}
+
+.section-wrapper{
+    // padding-left: 120px;
+    // padding-right: 120px;
+    margin:0 auto;
+    // max-width: 120;
+}
+
+.section-inner{
+    // padding-left: 100px;
+    // padding-right: 100px;
+    max-width:1100px;
+    margin:0 auto;
+    padding: 0 50px;
+}
+
+.section-title{
+    padding-top: 100px;
+    padding-right: 20px;
+    padding-left: 20px;
+    max-width: 1000px;
+}
+
+.title-right{
+    color: #FFFFFF;
+    text-align: right;
+    margin:0 auto;
+    max-width: 1200px;
+
+    &::after{
+        content: "";
+        background-color: $white;
+    }
+}
+
+.section-bottom{
+    padding-bottom: 70px;
+    font-size: 90px;
+    font-weight: bold;
+    text-align: right;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: $white-font;
+    opacity: .05;
+}
+
+.bottom-black{
+    text-align: left;
+    color: $white;
+    opacity: .1;
+}
+
+img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.submit-btn{
+    display: block;
+    width: 235px;
+    height: 59px;
+    background-color: $button-bg;
+    color: $font;
+    font-weight: bold;
+    padding: 19px 71px;
+    border-radius: 30px;
+    margin: 0 auto 70px;
+    box-shadow: 0px 0px 6px #1B1310;
+    text-align: center;
+    transition: 0.3s;
+    border: none;
+
+    &:hover{
+        opacity: .7;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+}
+
+// HEADER------------------------------------
+header{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: .3s;
+    .header-inner{
+        max-width: 1220px;
+        margin:19px auto 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+
+        &-left{
+
+            .header-title{
+                font-size: 26px;
+                font-weight: bold;
+
+                a{
+                    color: $white;
+                }
+            }
+
+        }
+        &-right{
+            display: flex;
+            .header-list{
+                display: flex;
+                .header-item{
+                    padding-left: 30px;
+                    // padding-top: 9px;
+                    a{
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.fixed{
+    position: fixed;
+    background-color: $font;
+    padding: 30px;
+    width: 100%;
+    transition: .3s;
+}
+
+// page-title-----------------------------------
+.page-title-wrapper{
+    height: 453px;
+    background-image: url("/img/contact-bgi@2x.jpg");
+    color: $white;
+    background-size: cover;
+    background-position: center;
+
+    .page-title{
+        font-style: 60px;
+        font-weight: bold;
+        font-style: italic;
+        text-align: center;
+        padding-top: 186px;
+    }
+
+    .page-title-bottom{
+        font-size: 90px;
+        color: $white;
+        opacity: .1;
+        margin: 20px 0 0 48px;
+    }
+}
+
+// FORM-----------------------------------
+.form-wrapper{
+    padding: 100px 0 80px;
+
+    .form-list{
+        max-width: 700px;
+        margin: 0 auto 80px;
+        padding: 0 50px;
+
+        .form-item{
+            margin-bottom: 25px;
+
+            &:last-of-type{
+                margin-bottom: 0;
+            }
+
+            .form-label{
+                display: block;
+                margin-bottom: 5px;
+                font-weight: bold;
+            }
+
+            input,textarea{
+                resize: none;
+                appearance: none;
+                outline: none;
+                border: 1px solid #141414;
+                width: 100%;
+                box-sizing: border-box;
+            }
+
+            .input-text{
+                padding: 0 8px;
+                line-height: 30px;
+            }
+
+            textarea{
+                height: 170px;
+                padding: 0 8px;
+                line-height: 30px;
+            }
+
+            .checkbox-list{
+                display: flex;
+            }
+
+            .checkbox-item{
+                margin-right: 20px;
+            }
+
+            .checkbox label,
+            .checkbox{
+                cursor: pointer;
+            }
+
+            .checkbox{
+                border: 1px solid #282f35;
+                height: 10px;
+                width: 10px;
+                margin-right: 10px;
+
+                &:checked{
+                    background-color: #333;
+                }
+            }
+        }
+    }
+
+}
+
+// FOOTER-----------------------------------------------------------
+footer{
+    text-align: center;
+    padding: 30px 0px;
+    font-weight: bold;
+}
+
+// About Resposive----------------
+.sp-br{
+    display: none;
+}

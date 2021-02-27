@@ -1,1 +1,287 @@
-/* No CSS *//*# sourceMappingURL=contact.css.map */
+body {
+  font-family: 'Noto Serif', serif;
+  font-family: 'Noto Serif JP', serif;
+  color: #282F35;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrap {
+  overflow-x: hidden;
+}
+
+p {
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section-title {
+  font-size: 60px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.section-title::after {
+  content: "";
+  display: inline-block;
+  background-color: #282F35;
+  width: 200px;
+  height: 5px;
+  margin-left: 30px;
+  vertical-align: middle;
+}
+
+.section-wrapper {
+  margin: 0 auto;
+}
+
+.section-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.section-title {
+  padding-top: 100px;
+  padding-right: 20px;
+  padding-left: 20px;
+  max-width: 1000px;
+}
+
+.title-right {
+  color: #FFFFFF;
+  text-align: right;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.title-right::after {
+  content: "";
+  background-color: #FFFFFF;
+}
+
+.section-bottom {
+  padding-bottom: 70px;
+  font-size: 90px;
+  font-weight: bold;
+  text-align: right;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #171717;
+  opacity: .05;
+}
+
+.bottom-black {
+  text-align: left;
+  color: #FFFFFF;
+  opacity: .1;
+}
+
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.submit-btn {
+  display: block;
+  width: 235px;
+  height: 59px;
+  background-color: #F7D43F;
+  color: #282F35;
+  font-weight: bold;
+  padding: 19px 71px;
+  border-radius: 30px;
+  margin: 0 auto 70px;
+  -webkit-box-shadow: 0px 0px 6px #1B1310;
+          box-shadow: 0px 0px 6px #1B1310;
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border: none;
+}
+
+.submit-btn:hover {
+  opacity: .7;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+header {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+header .header-inner {
+  max-width: 1220px;
+  margin: 19px auto 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+header .header-inner-left .header-title {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+header .header-inner-left .header-title a {
+  color: #FFFFFF;
+}
+
+header .header-inner-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .header-inner-right .header-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .header-inner-right .header-list .header-item {
+  padding-left: 30px;
+}
+
+header .header-inner-right .header-list .header-item a {
+  color: #FFFFFF;
+}
+
+.fixed {
+  position: fixed;
+  background-color: #282F35;
+  padding: 30px;
+  width: 100%;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.page-title-wrapper {
+  height: 453px;
+  background-image: url("/img/contact-bgi@2x.jpg");
+  color: #FFFFFF;
+  background-size: cover;
+  background-position: center;
+}
+
+.page-title-wrapper .page-title {
+  font-style: 60px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  padding-top: 186px;
+}
+
+.page-title-wrapper .page-title-bottom {
+  font-size: 90px;
+  color: #FFFFFF;
+  opacity: .1;
+  margin: 20px 0 0 48px;
+}
+
+.form-wrapper {
+  padding: 100px 0 80px;
+}
+
+.form-wrapper .form-list {
+  max-width: 700px;
+  margin: 0 auto 80px;
+  padding: 0 50px;
+}
+
+.form-wrapper .form-list .form-item {
+  margin-bottom: 25px;
+}
+
+.form-wrapper .form-list .form-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.form-wrapper .form-list .form-item .form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-wrapper .form-list .form-item input, .form-wrapper .form-list .form-item textarea {
+  resize: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: none;
+  border: 1px solid #141414;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.form-wrapper .form-list .form-item .input-text {
+  padding: 0 8px;
+  line-height: 30px;
+}
+
+.form-wrapper .form-list .form-item textarea {
+  height: 170px;
+  padding: 0 8px;
+  line-height: 30px;
+}
+
+.form-wrapper .form-list .form-item .checkbox-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form-wrapper .form-list .form-item .checkbox-item {
+  margin-right: 20px;
+}
+
+.form-wrapper .form-list .form-item .checkbox label,
+.form-wrapper .form-list .form-item .checkbox {
+  cursor: pointer;
+}
+
+.form-wrapper .form-list .form-item .checkbox {
+  border: 1px solid #282f35;
+  height: 10px;
+  width: 10px;
+  margin-right: 10px;
+}
+
+.form-wrapper .form-list .form-item .checkbox:checked {
+  background-color: #333;
+}
+
+footer {
+  text-align: center;
+  padding: 30px 0px;
+  font-weight: bold;
+}
+
+.sp-br {
+  display: none;
+}
+/*# sourceMappingURL=contact.css.map */

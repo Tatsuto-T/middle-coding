@@ -168,5 +168,14 @@
   .contact .section-title {
     margin-bottom: 0;
   }
+  .page-title-wrapper .page-title-bottom {
+    font-size: 60px;
+  }
+  .form-wrapper .form-list .form-item .checkbox-list {
+    display: block;
+  }
+  .form-wrapper .form-list .form-item .checkbox-item {
+    margin-right: 0;
+  }
 }
 /*# sourceMappingURL=responsive.css.map */
