@@ -143,7 +143,7 @@ header{
                 font-weight: bold;
                 color: $white;
             }
-            
+
         }
         &-right{
             display: flex;
@@ -164,7 +164,7 @@ header{
 .fixed{
     position: fixed;
     background-color: $font;
-    padding: 30px;
+    padding-bottom: 20px;
     width: 100%;
     transition: .3s;
 }
@@ -211,7 +211,7 @@ header{
     .section-title{
         margin-bottom: 70px;
     }
-    
+
     .section-lead{
         text-align: center;
         font-size: 30px;
@@ -253,7 +253,7 @@ header{
 
     .section-inner{
         .works-list{
-            
+
             display: flex;
             justify-content: space-between;
             .works-item{
@@ -297,7 +297,7 @@ header{
                 &:hover{
                     background-color: rgba(40,47,53,.7);
                     transition: .3s;
-                }   
+                }
             }
 
             &:nth-child(1){
@@ -321,7 +321,7 @@ header{
     background-size: cover;
     background-position: center;
     text-align: center;
-    
+
     .section-title{
         padding-bottom: 80px;
         max-width: 1200px;

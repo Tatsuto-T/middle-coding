@@ -169,7 +169,7 @@ header .header-inner-right .header-list .header-item a {
 .fixed {
   position: fixed;
   background-color: #282F35;
-  padding: 30px;
+  padding-bottom: 20px;
   width: 100%;
   -webkit-transition: .3s;
   transition: .3s;

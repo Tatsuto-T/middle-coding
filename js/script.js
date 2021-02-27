@@ -31,5 +31,18 @@ $(".slider").slick({
 $(".burger-btn").on("click",function() {
     $(".header-nav").fadeToggle(300);
     $(this).toggleClass("cross");
-    $("body").toggleClass("noscroll");
+    $("body").addClass("noscroll");
 });
+
+$(".header-item").on("click",function() {
+    if($("body").hasClass("noscroll")){
+        $("body").removeClass("noscroll");
+        $(".header-nav").fadeOut(300);
+        $(".burger-btn").removeClass("cross");
+    };
+});
+
+// SmoothScrool
+var scroll = new SmoothScroll('a[href*="#"]', {
+    // header: '[data-scroll-header]'
+  });
