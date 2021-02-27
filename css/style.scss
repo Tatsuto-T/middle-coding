@@ -125,9 +125,12 @@ header{
     top: 0;
     left: 0;
     width: 100%;
+    transition: .3s;
     .header-inner{
-        max-width: 1200px;
+        max-width: 1220px;
         margin:19px auto 0;
+        padding-left: 10px;
+        padding-right: 10px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -158,10 +161,17 @@ header{
     }
 }
 
+.fixed{
+    position: fixed;
+    background-color: $font;
+    padding: 30px;
+    width: 100%;
+    transition: .3s;
+}
+
 // MAIN-BG---------------------------------
 .main-bg{
     height: 100vh;
-    background-image: url("/img/fv-bgi_01@2x.jpg");
     background-size: cover;
     min-height: 550px;
     background-position: center;
@@ -184,6 +194,16 @@ header{
             text-align: center;
         }
     }
+
+    img{
+        height: 100vh;
+        object-fit: cover;
+        min-height: 550px;
+    }
+}
+
+.slick-arrow{
+    display: none !important;
 }
 
 // CONCEPT ------------------------------------------------

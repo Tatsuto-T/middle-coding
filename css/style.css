@@ -119,11 +119,15 @@ header {
   top: 0;
   left: 0;
   width: 100%;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 header .header-inner {
-  max-width: 1200px;
+  max-width: 1220px;
   margin: 19px auto 0;
+  padding-left: 10px;
+  padding-right: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -162,9 +166,17 @@ header .header-inner-right .header-list .header-item a {
   color: #FFFFFF;
 }
 
+.fixed {
+  position: fixed;
+  background-color: #282F35;
+  padding: 30px;
+  width: 100%;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
 .main-bg {
   height: 100vh;
-  background-image: url("/img/fv-bgi_01@2x.jpg");
   background-size: cover;
   min-height: 550px;
   background-position: center;
@@ -187,6 +199,17 @@ header .header-inner-right .header-list .header-item a {
 .main-bg .main-copy .jp-copy {
   font-size: 40px;
   text-align: center;
+}
+
+.main-bg img {
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  min-height: 550px;
+}
+
+.slick-arrow {
+  display: none !important;
 }
 
 .concept .section-title {

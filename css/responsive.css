@@ -69,13 +69,32 @@
     height: 3px;
     width: 30px;
     background-color: #fff;
+    -webkit-transition: .3s;
+    transition: .3s;
   }
   .header-inner-right .burger-btn .bar_top,
   .header-inner-right .burger-btn .bar_mid {
     margin-bottom: 8px;
   }
-  .header-inner-right .burger-btn .bar_bot {
-    margin-bottom: px;
+  .burger-btn.cross .bar_top {
+    -webkit-transform: rotate(45deg) translate(8px, 8px);
+            transform: rotate(45deg) translate(8px, 8px);
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+  .burger-btn.cross .bar_mid {
+    opacity: 0;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+  .burger-btn.cross .bar_bot {
+    -webkit-transform: rotate(-45deg) translate(8px, -8px);
+            transform: rotate(-45deg) translate(8px, -8px);
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+  body.noscroll {
+    overflow: hidden;
   }
   .main-bg .main-copy {
     top: 50%;
