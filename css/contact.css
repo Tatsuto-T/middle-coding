@@ -181,7 +181,7 @@ header .header-inner-right .header-list .header-item a {
 
 .page-title-wrapper {
   height: 453px;
-  background-image: url("/img/contact-bgi@2x.jpg");
+  background-image: url("../img/contact-bgi@2x.jpg");
   color: #FFFFFF;
   background-size: cover;
   background-position: center;
