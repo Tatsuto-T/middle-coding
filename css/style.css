@@ -323,19 +323,19 @@ header .header-inner-right .header-list .header-item a {
 }
 
 .service .service-list .service-item:nth-child(1) {
-  background-image: url("/img/service-img01@2x.jpg");
+  background-image: url("../img/service-img01@2x.jpg");
 }
 
 .service .service-list .service-item:nth-child(2) {
-  background-image: url("/img/service-img02@2x.jpg");
+  background-image: url("../img/service-img02@2x.jpg");
 }
 
 .service .service-list .service-item:nth-child(3) {
-  background-image: url("/img/service-img03@2x.jpg");
+  background-image: url("../img/service-img03@2x.jpg");
 }
 
 .contact {
-  background-image: url("/img/contact-page-bgi@2x.jpg");
+  background-image: url("../img/contact-page-bgi@2x.jpg");
   background-size: cover;
   background-position: center;
   text-align: center;

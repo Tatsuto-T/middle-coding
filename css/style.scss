@@ -301,15 +301,15 @@ header{
             }
 
             &:nth-child(1){
-                background-image: url("/img/service-img01@2x.jpg");
+                background-image: url("../img/service-img01@2x.jpg");
                 // background-size: cover;
 
             }
             &:nth-child(2){
-                background-image: url("/img/service-img02@2x.jpg");
+                background-image: url("../img/service-img02@2x.jpg");
             }
             &:nth-child(3){
-                background-image: url("/img/service-img03@2x.jpg");
+                background-image: url("../img/service-img03@2x.jpg");
             }
         }
     }
@@ -317,7 +317,7 @@ header{
 
 // CONTACT -------------------------------------------------------
 .contact{
-    background-image: url("/img/contact-page-bgi@2x.jpg");
+    background-image: url("../img/contact-page-bgi@2x.jpg");
     background-size: cover;
     background-position: center;
     text-align: center;
